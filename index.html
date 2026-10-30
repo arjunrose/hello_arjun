@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#07090c" />
+  <meta name="description" content="Arjun Rose J S — Robotics & Automation Engineer working across industrial control, robotics, embedded systems and applied AI." />
+  <meta name="author" content="Arjun Rose J S" />
+  <link rel="canonical" href="https://arjunrose.github.io/arjun-rose-portfolio/" />
+  <meta property="og:site_name" content="Arjun Rose — Systems in Motion" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Arjun Rose J S — Systems in Motion" />
+  <meta property="og:description" content="A living engineering portfolio: robotics, industrial automation, embedded systems and applied AI." />
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/116172871?v=4" />
+  <title>Arjun Rose J S — Systems in Motion</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles-v4.css" />
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Arjun Rose J S","jobTitle":"Robotics & Automation Engineer","url":"https://arjunrose.github.io/arjun-rose-portfolio/","email":"mailto:arjunrose2005@gmail.com","alumniOf":{"@type":"CollegeOrUniversity","name":"Karunya Institute of Technology and Sciences"},"sameAs":["https://github.com/arjunrose","https://www.linkedin.com/in/arjun-rose-j-s"],"knowsAbout":["Robotics","Industrial Automation","Programmable Logic Controllers","Computer Vision","Embedded Systems","Applied Artificial Intelligence"]}</script>
+  <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.164.1/build/three.module.js"}}</script>
+  <script type="module" src="app.js"></script>
+  <script src="assistant-config.js"></script>
+  <script type="module" src="experience.js"></script>
+</head>
+<body>
+  <div class="boot-screen" id="bootScreen" aria-hidden="true">
+    <div class="boot-mark">AR<span>•</span></div>
+    <div class="boot-track"><i id="bootProgress"></i></div>
+    <div class="boot-meta"><span>INITIALISING PORTFOLIO SYSTEM</span><b id="bootPercent">00%</b></div>
+  </div>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <canvas class="starfield" id="starfield" aria-hidden="true"></canvas>
+  <div class="cursor-aura" id="cursorAura" aria-hidden="true"></div>
+  <div class="reading-line" id="readingLine" aria-hidden="true"></div>
+
+  <header class="topbar" id="top">
+    <a class="identity" href="#home" aria-label="Arjun Rose home">
+      <span class="identity-symbol">AR<span>·</span></span>
+      <span class="identity-name"><b>ARJUN ROSE</b><small>ENGINEER / BUILDER</small></span>
+    </a>
+    <nav class="topnav" aria-label="Primary navigation">
+      <a href="#experience">EXPLORE <sup>01</sup></a><a href="#lab">LAB <sup>02</sup></a><a href="#projects">BUILDS <sup>03</sup></a><a href="#journey">JOURNEY <sup>04</sup></a>
+    </nav>
+    <div class="top-actions">
+      <span class="availability"><i></i> OPEN TO OPPORTUNITIES</span>
+      <button class="recruiter-button" id="recruiterMode" type="button">RECRUITER CUT <span>↗</span></button>
+      <button class="round-action" id="themeToggle" type="button" aria-label="Switch theme" title="Switch theme"><span>◐</span></button>
+      <button class="menu-action" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-rail"><span>PORTFOLIO / 2026</span><span class="rail-stem"></span><span>COIMBATORE · INDIA</span></div>
+      <div class="hero-main">
+        <div class="hero-copy">
+          <div class="micro-label"><span class="micro-line"></span> ROBOTICS × AUTOMATION × APPLIED AI</div>
+          <p class="hero-overline">I'M ARJUN ROSE J S. I BUILD AT THE EDGE OF</p>
+          <h1>THE DIGITAL<br /><span class="hero-outline">&amp; PHYSICAL.</span></h1>
+          <div class="hero-summary-row">
+            <p class="hero-summary">I connect control systems, mechanical design, embedded hardware and machine perception to make ideas move in the real world.</p>
+            <div class="hero-index"><b>R&amp;A</b><span>AI SPECIALISATION<br />B.TECH · 2022—2026</span></div>
+          </div>
+          <div class="hero-buttons">
+            <a class="button button-acid" href="#experience">ENTER THE EXPERIENCE <span>↘</span></a>
+            <a class="button button-glass" href="https://arjunrose.github.io/Arjun_Rose_J_S/assets/Arjun_Rose_J_S_Resume.pdf" target="_blank" rel="noreferrer">OPEN RÉSUMÉ <span>↗</span></a>
+          </div>
+          <div class="hero-links"><a href="https://github.com/arjunrose" target="_blank" rel="noreferrer">GITHUB ↗</a><a href="https://www.linkedin.com/in/arjun-rose-j-s" target="_blank" rel="noreferrer">LINKEDIN ↗</a><a href="mailto:arjunrose2005@gmail.com">EMAIL ↗</a></div>
+        </div>
+
+        <div class="hero-console">
+          <div class="console-top"><span><i class="live-dot"></i> DIGITAL TWIN / 001</span><span>ARM SIMULATION <b>LIVE</b></span></div>
+          <div class="hero-viewport" id="heroViewport">
+            <canvas id="heroRobot" aria-label="Interactive three-dimensional robotic arm. Drag the target marker to change its position."></canvas>
+            <div class="viewport-grid"></div>
+            <div class="viewport-crosshair crosshair-one"></div><div class="viewport-crosshair crosshair-two"></div>
+            <div class="view-label view-label-a">END EFFECTOR <b id="heroToolState">IDLE</b></div>
+            <div class="view-label view-label-b">COORDINATES <b id="heroHeroCoords">X 2.27 / Y 2.47</b></div>
+            <div class="view-compass">XYZ <span>↗</span></div>
+            <div class="view-target-hint">DRAG TO MOVE TARGET</div>
+          </div>
+          <div class="console-bottom"><span>2-DOF KINEMATIC MODEL</span><span>THREE.JS / REAL-TIME</span><span class="console-badge">● INTERACTIVE</span></div>
+        </div>
+      </div>
+      <div class="hero-footer"><span>SCROLL TO ENTER THE LAB</span><span class="hero-footer-center">SYSTEMS THAT SENSE / DECIDE / ACT</span><a href="#profile">DISCOVER ARJUN <b>↓</b></a></div>
+      <div class="hero-watermark" aria-hidden="true">AR / 026</div>
+    </section>
+
+    <section class="experience-portal" id="experience" aria-labelledby="portalTitle">
+      <div class="portal-wrap">
+        <div class="portal-head"><span>01 / INTERACTIVE ENGINEERING ATLAS</span><strong>SELECT A SYSTEM TO EXPLORE</strong><span>AR / EXPERIENCE MODE</span></div>
+        <div class="portal-grid">
+          <div class="portal-intro">
+            <p class="section-kicker">BEYOND THE SCREEN / INSIDE THE SYSTEM</p>
+            <h2 id="portalTitle">Choose a system.<br /><em>Step inside.</em></h2>
+            <p>This portfolio is a map of how I think: sense something, interpret it, make a decision and move the physical world. Choose a node to see the engineering behind it.</p>
+            <div class="portal-step-list" role="group" aria-label="Engineering areas">
+              <button class="portal-step" type="button" data-space="motion" aria-pressed="true"><span>01</span><strong>ROBOT MOTION</strong><small>KINEMATICS ↗</small></button>
+              <button class="portal-step" type="button" data-space="vision" aria-pressed="false"><span>02</span><strong>VISUAL INTELLIGENCE</strong><small>PERCEPTION ↗</small></button>
+              <button class="portal-step" type="button" data-space="control" aria-pressed="false"><span>03</span><strong>INDUSTRIAL CONTROL</strong><small>PLC / SEQUENCE ↗</small></button>
+              <button class="portal-step" type="button" data-space="design" aria-pressed="false"><span>04</span><strong>MECHATRONIC DESIGN</strong><small>CAD / HARDWARE ↗</small></button>
+            </div>
+          </div>
+          <div class="portal-stage" id="portalStage" aria-label="Interactive map of Arjun's engineering disciplines">
+            <canvas class="portal-canvas" id="portalCanvas" aria-hidden="true"></canvas>
+            <div class="portal-orbit orbit-one"></div><div class="portal-orbit orbit-two"></div>
+            <div class="portal-core" id="portalCore"><div class="portal-core-mark">AR<span>LAB / 026</span></div></div>
+            <button class="portal-node node-motion" type="button" data-space="motion" aria-label="Explore robot motion" aria-pressed="true"><b>θ</b><small>MOTION</small></button>
+            <button class="portal-node node-vision" type="button" data-space="vision" aria-label="Explore visual intelligence" aria-pressed="false"><b>◉</b><small>VISION</small></button>
+            <button class="portal-node node-control" type="button" data-space="control" aria-label="Explore industrial control" aria-pressed="false"><b>⌁</b><small>CONTROL</small></button>
+            <button class="portal-node node-design" type="button" data-space="design" aria-label="Explore mechatronic design" aria-pressed="false"><b>⌬</b><small>DESIGN</small></button>
+          </div>
+          <aside class="portal-data" aria-live="polite" aria-atomic="true">
+            <span class="portal-data-kicker" id="portalKicker">DISCIPLINE / 01 · MOTION</span>
+            <h3 id="portalTitleDetail">Robot motion &amp; kinematics</h3>
+            <p id="portalDescription">Explore how joint-space movement becomes a precise end-effector position. Includes a browser-based 2-link inverse-kinematics model and hands-on Dobot Magician kinematic analysis.</p>
+            <div class="portal-metric-row"><div class="portal-metric"><b id="portalMetricA">2-DOF</b><span id="portalMetricALabel">INTERACTIVE MODEL</span></div><div class="portal-metric"><b id="portalMetricB">XYZ / XY</b><span id="portalMetricBLabel">POSE REASONING</span></div></div>
+            <button class="portal-open" id="portalExplore" type="button">ENTER THIS WORKSPACE <span>↘</span></button>
+          </aside>
+        </div>
+        <div class="portal-footer"><span class="portal-signal"><i></i> EXPERIENCE ENGINE / ACTIVE</span><span>INPUT <b>→</b> THINK <b>→</b> ACT</span><span>SCROLL TO CONTINUE <b>↓</b></span></div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Engineering focus areas"><div class="ticker-track"><span>ROBOTICS</span><i>✳</i><span>PLC AUTOMATION</span><i>✳</i><span>COMPUTER VISION</span><i>✳</i><span>EMBEDDED SYSTEMS</span><i>✳</i><span>INDUSTRY 4.0</span><i>✳</i><span>ROBOTICS</span><i>✳</i><span>PLC AUTOMATION</span><i>✳</i><span>COMPUTER VISION</span><i>✳</i><span>EMBEDDED SYSTEMS</span><i>✳</i><span>INDUSTRY 4.0</span><i>✳</i></div></section>
+
+    <section class="section profile-section" id="profile">
+      <div class="section-head reveal"><div class="section-id">00 / THE OPERATOR</div><div class="section-hint">A LITTLE CONTEXT BEFORE THE MACHINES</div></div>
+      <div class="profile-layout">
+        <div class="profile-visual reveal">
+          <div class="profile-frame"><img src="https://avatars.githubusercontent.com/u/116172871?v=4" alt="Arjun Rose J S profile portrait" loading="lazy" /><div class="profile-frame-overlay"></div><span class="profile-corner profile-corner-a">AR / 01</span><span class="profile-corner profile-corner-b">COIMBATORE, IN</span></div>
+          <div class="profile-caption"><span>THE BUILDER</span><span>CURIOUS BY DESIGN.</span></div>
+        </div>
+        <div class="profile-copy reveal">
+          <p class="section-kicker">HUMAN IN THE LOOP</p>
+          <h2 class="display-heading">I like the moment<br />when <em>systems connect.</em></h2>
+          <p class="body-lead">I’m a Robotics &amp; Automation engineer with an AI specialisation. My interests sit across industrial control, robot motion, embedded electronics and computer vision.</p>
+          <p class="body-copy">I enjoy understanding how a machine behaves from the signal level up: what a sensor sees, how a controller decides, how an actuator responds and where the mechanical design can be improved. I learn by building, testing and iterating—on the workbench, in simulation and around real industrial systems.</p>
+          <div class="profile-principles"><div><b>01</b><span>UNDERSTAND THE SYSTEM</span></div><div><b>02</b><span>MAKE IT INTERACT</span></div><div><b>03</b><span>TEST THE REALITY</span></div></div>
+        </div>
+      </div>
+      <div class="stat-grid reveal"><div class="stat-block"><b data-count="21">21<span>+</span></b><span>BUILDS / PROJECTS</span><small>Across robotics, automation and embedded systems</small></div><div class="stat-block"><b data-count="5">05</b><span>ROBOT PLATFORMS</span><small>Industrial, collaborative and educational systems</small></div><div class="stat-block"><b data-count="4">04</b><span>SIEMENS PLC FAMILIES</span><small>S7-300 · S7-400 · S7-1200 · S7-1500</small></div><div class="stat-block"><b data-count="2">02</b><span>INDUSTRY INTERNSHIPS</span><small>Manufacturing and process-industry exposure</small></div></div>
+    </section>
+
+    <section class="lab-section" id="lab">
+      <div class="section section-inner">
+        <div class="section-head reveal"><div class="section-id">01 / THE ENGINEERING PLAYGROUND</div><div class="section-hint">DON'T TAKE MY WORD FOR IT. INTERACT.</div></div>
+        <div class="section-intro reveal"><div><p class="section-kicker">LIVE SYSTEMS / SIMULATED IN BROWSER</p><h2 class="display-heading">A portfolio with<br /><em>moving parts.</em></h2></div><p class="section-note">Operate a small kinematic digital twin, latch a PLC output and step through a vision-to-actuation pipeline. These are educational simulations—not connections to physical machinery or live ML inference.</p></div>
+
+        <div class="lab-grid">
+          <article class="lab-panel robot-panel reveal">
+            <div class="panel-topline"><div><span class="panel-serial">SIM / 001</span><h3>Kinematic digital twin</h3></div><span class="panel-live"><i></i> INTERACTIVE</span></div>
+            <p class="panel-description">Drag the target in the 3D viewport or tune the joints manually. The inverse-kinematics solver updates the end-effector pose.</p>
+            <div class="twin-stage" id="twinStage"><canvas id="twinRobot" aria-label="Interactive 3D robot arm simulation"></canvas><div class="twin-overlay twin-overlay-top"><span>WORLD FRAME / XY</span><span>MODEL · 2 JOINTS</span></div><div class="twin-overlay twin-overlay-bottom"><span>DRAG TARGET TO MOVE</span><span id="twinReachability">TARGET REACHABLE</span></div><div class="twin-crosshair"></div></div>
+            <div class="joint-console"><div class="joint-control"><label for="jointOne">JOINT 01 <output id="jointOneValue">+20.0°</output></label><input id="jointOne" type="range" min="-150" max="150" value="20" /></div><div class="joint-control"><label for="jointTwo">JOINT 02 <output id="jointTwoValue">+35.0°</output></label><input id="jointTwo" type="range" min="-150" max="150" value="35" /></div></div>
+            <div class="telemetry-grid"><div><small>END X</small><b id="telemetryX">2.27</b></div><div><small>END Y</small><b id="telemetryY">2.47</b></div><div><small>ELBOW</small><b id="telemetryElbow">UP</b></div><div><small>STATUS</small><b id="telemetryStatus">READY</b></div></div>
+            <div class="panel-actions"><button class="button button-acid" id="robotSequence" type="button">RUN PICK SEQUENCE <span>↗</span></button><button class="button button-plain" id="robotReset" type="button">RESET POSE ↺</button></div>
+          </article>
+
+          <article class="lab-panel plc-panel reveal">
+            <div class="panel-topline"><div><span class="panel-serial">SIM / 002</span><h3>PLC control room</h3></div><span class="panel-live panel-live-amber"><i></i> LADDER LOGIC</span></div>
+            <p class="panel-description">A seal-in motor circuit. START energises the run bit, the auxiliary contact holds the circuit, and STOP or E-STOP breaks it.</p>
+            <div class="plc-top-status"><div class="plc-indicator" id="plcIndicator"></div><div><small>OUTPUT / Q0.0</small><b id="plcState">MOTOR STOPPED</b></div><div class="plc-scan-count">SCAN<b id="scanCount">0001</b></div></div>
+            <div class="ladder-board">
+              <div class="ladder-power"><span>L+</span><span>M</span></div>
+              <div class="ladder-line"><span class="ladder-number">01</span><div class="ladder-contact contact-nc" id="stopContact"><small>STOP</small><b>—|/|—</b></div><div class="ladder-contact" id="startContact"><small>START</small><b>—| |—</b></div><div class="ladder-contact" id="holdContact"><small>M0.0</small><b>—| |—</b></div><div class="ladder-coil" id="motorCoil"><small>Q0.0</small><b>( M )</b></div></div>
+              <div class="ladder-feedback" id="ladderFeedback">Run bit is FALSE. Output is de-energised.</div>
+            </div>
+            <div class="plc-io-grid"><div><small>I0.0 / START</small><b id="ioStart">LOW</b></div><div><small>I0.1 / STOP</small><b id="ioStop">HIGH</b></div><div><small>I0.2 / E-STOP</small><b id="ioEstop">CLEAR</b></div></div>
+            <div class="plc-actions"><button class="button button-acid" id="plcStart" type="button">START MOTOR</button><button class="button button-plain" id="plcStop" type="button">STOP</button><button class="button button-danger" id="plcEstop" type="button">E-STOP</button><button class="button button-plain" id="plcReset" type="button">RESET</button></div>
+            <p class="panel-footnote">LOGIC MODEL ONLY · NO PHYSICAL PLC CONNECTION</p>
+          </article>
+
+          <article class="lab-panel vision-panel reveal">
+            <div class="panel-topline"><div><span class="panel-serial">SIM / 003</span><h3>Perception → action</h3></div><span class="panel-live"><i></i> PIPELINE MODEL</span></div>
+            <p class="panel-description">A simplified view of the automatic waste-sorter architecture: image capture, category decision and servo-directed sorting.</p>
+            <div class="vision-workspace">
+              <div class="vision-input"><div class="camera-icon">◉</div><span>CAMERA INPUT</span><b id="visionObject">PLASTIC</b><small>ESP32-CAM / IMAGE</small></div>
+              <div class="vision-connector"><i></i><b>FRAME</b></div>
+              <div class="vision-model"><div class="model-chip">YOLO</div><div class="confidence-bars"><i style="--w:88%"></i><i style="--w:32%"></i><i style="--w:18%"></i></div><span>CLASSIFY</span><b id="visionClass">PLASTIC · DEMO 0.91</b><small>MODEL INFERENCE / HOST PC</small></div>
+              <div class="vision-connector"><i></i><b>CLASS ID</b></div>
+              <div class="vision-output"><div class="bin-icon"><i></i><i></i><i></i></div><span>SERVO ROUTE</span><b id="visionRoute">BIN 01</b><small>ACTUATION</small></div>
+            </div>
+            <div class="vision-class-list"><span>PLASTIC</span><span>ORGANIC</span><span>E-WASTE</span><span>RECYCLABLE</span></div>
+            <div class="vision-controls"><label for="wasteSelect">TEST AN OBJECT</label><select id="wasteSelect"><option value="plastic">Plastic bottle</option><option value="organic">Organic waste</option><option value="ewaste">E-waste</option><option value="recyclable">Paper / recyclable</option></select><button class="button button-acid" id="visionRun" type="button">PROCESS FRAME ↗</button></div>
+            <p class="panel-footnote">ILLUSTRATIVE WORKFLOW · DEMO SCORES · NO LIVE YOLO INFERENCE</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-section section" id="projects">
+      <div class="section-head reveal"><div class="section-id">02 / SELECTED BUILDS</div><div class="section-hint">IDEAS TURNED INTO PROTOTYPES, MODELS AND TESTS</div></div>
+      <div class="section-intro reveal"><div><p class="section-kicker">THE WORKBENCH ARCHIVE</p><h2 class="display-heading">Built to solve.<br /><em>Made to learn.</em></h2></div><p class="section-note">A selection from 21+ documented builds and experiments. Open a case file to inspect the problem, architecture, tools and engineering focus.</p></div>
+      <div class="project-controls reveal"><div class="filter-group" role="group" aria-label="Filter projects"><button class="filter-button active" data-filter="all" type="button">ALL <span>09</span></button><button class="filter-button" data-filter="robotics" type="button">ROBOTICS</button><button class="filter-button" data-filter="vision" type="button">VISION / AI</button><button class="filter-button" data-filter="automation" type="button">AUTOMATION</button><button class="filter-button" data-filter="embedded" type="button">EMBEDDED / IoT</button></div><label class="project-search"><span>⌕</span><input id="projectSearch" type="search" placeholder="Search systems..." aria-label="Search projects" /></label></div>
+      <div class="project-grid" id="projectGrid">
+        <article class="project-card project-card-featured reveal" data-category="vision embedded" data-search="automatic waste sorter yolo esp32 camera servo plastic organic e-waste recyclable"><div class="project-art art-waste"><div class="art-grid"></div><div class="conveyor-scene"><div class="conveyor-belt"></div><div class="waste-object waste-bottle"></div><div class="waste-object waste-box"></div><div class="sorter-robot"><i></i><b></b></div><div class="sorting-bin bin-one"></div><div class="sorting-bin bin-two"></div></div><span class="art-code">CV / SORT / 001</span><span class="art-type">VISION SYSTEM</span></div><div class="project-body"><div class="project-meta"><span>VISION + EMBEDDED</span><span>01 / 09</span></div><h3>Automatic waste sorter</h3><p>YOLO-based waste recognition with ESP32-CAM capture, host-side inference and a servo-driven sorting mechanism.</p><div class="tag-row"><i>YOLO</i><i>ESP32-CAM</i><i>PYTHON</i><i>SERVO</i></div><button class="case-open" data-case="waste" type="button">OPEN CASE FILE <span>↗</span></button></div></article>
+        <article class="project-card reveal" data-category="robotics automation" data-search="areca palm climbing harvesting robot fusion 360 digital twin mechanical gripper"><div class="project-art art-areca"><div class="palm-trunk"></div><div class="palm-leaf leaf-a"></div><div class="palm-leaf leaf-b"></div><div class="climber-model"><i></i><b></b></div><span class="art-code">MECH / 002</span><span class="art-type">MECHANICAL DESIGN</span></div><div class="project-body"><div class="project-meta"><span>ROBOTICS + CAD</span><span>02 / 09</span></div><h3>Areca palm climbing robot</h3><p>A climbing and harvesting mechanism concept modelled around wheel geometry, a spring-loaded gripper and CAD motion studies.</p><div class="tag-row"><i>FUSION 360</i><i>CAD</i><i>MECHANISM</i></div><button class="case-open" data-case="areca" type="button">OPEN CASE FILE <span>↗</span></button></div></article>
+        <article class="project-card reveal" data-category="automation vision" data-search="vision based industrial sorting automation python opencv pneumatic conveyor sensor"><div class="project-art art-sort"><div class="sort-sensor"></div><div class="sort-belt"><i></i><i></i><i></i></div><div class="sort-pusher"></div><span class="art-code">VISION / 003</span><span class="art-type">AUTOMATION</span></div><div class="project-body"><div class="project-meta"><span>AUTOMATION + VISION</span><span>03 / 09</span></div><h3>Vision-based sorting automation</h3><p>Python/OpenCV inspection with sensor-triggered pneumatic actuation, focusing on sequence timing and mechanical alignment.</p><div class="tag-row"><i>OPENCV</i><i>PNEUMATICS</i><i>PYTHON</i></div><button class="case-open" data-case="sorting" type="button">OPEN CASE FILE <span>↗</span></button></div></article>
+        <article class="project-card reveal" data-category="robotics embedded" data-search="mimic robotic arm real time servo control microcontroller sensor motion"><div class="project-art art-arm"><div class="mini-arm-base"></div><div class="mini-arm-link link-a"></div><div class="mini-arm-joint joint-a"></div><div class="mini-arm-link link-b"></div><div class="mini-arm-joint joint-b"></div><div class="mini-arm-gripper"></div><span class="art-code">MOTION / 004</span><span class="art-type">ROBOTICS</span></div><div class="project-body"><div class="project-meta"><span>ROBOTICS + EMBEDDED</span><span>04 / 09</span></div><h3>Mimic robotic arm</h3><p>A microcontroller-based arm that maps sensor motion to servo actuation for coordinated, responsive movement.</p><div class="tag-row"><i>ARDUINO</i><i>SERVOS</i><i>SENSORS</i></div><button class="case-open" data-case="mimic" type="button">OPEN CASE FILE <span>↗</span></button></div></article>
+        <article class="project-card reveal" data-category="vision robotics" data-search="human detection disaster areas jetson nano edge ai camera person detection"><div class="project-art art-human"><div class="scan-frame"><div class="scan-person"></div><div class="scan-box"></div><span>PERSON / DETECTED</span></div><span class="art-code">EDGE AI / 005</span><span class="art-type">COMPUTER VISION</span></div><div class="project-body"><div class="project-meta"><span>VISION + EDGE AI</span><span>05 / 09</span></div><h3>Human detection for disaster response</h3><p>A Jetson Nano vision experiment exploring person detection near the sensing device for an edge-computing use case.</p><div class="tag-row"><i>JETSON NANO</i><i>PYTHON</i><i>VISION</i></div><button class="case-open" data-case="human" type="button">OPEN CASE FILE <span>↗</span></button></div></article>
+        <article class="project-card reveal" data-category="automation" data-search="siemens plc tia portal ladder logic factory io codesys hmi conveyor sequence"><div class="project-art art-plc"><div class="plc-rung"><i></i><i></i><i></i><b></b></div><div class="plc-rung second"><i></i><i></i><b></b></div><span class="art-code">CONTROL / 006</span><span class="art-type">INDUSTRIAL CONTROL</span></div><div class="project-body"><div class="project-meta"><span>PLC + INDUSTRIAL CONTROL</span><span>06 / 09</span></div><h3>PLC sequencing &amp; conveyor logic</h3><p>Hands-on exercises in ladder logic, I/O mapping, interlocks, simulated drive control and Factory I/O / CODESYS integration.</p><div class="tag-row"><i>TIA PORTAL</i><i>CODESYS</i><i>FACTORY I/O</i></div><button class="case-open" data-case="plc" type="button">OPEN CASE FILE <span>↗</span></button></div></article>
+        <article class="project-card reveal" data-category="vision embedded" data-search="student id card detection yolo database admin alert attendance computer vision"><div class="project-art art-id"><div class="id-frame"><div class="id-card-shape"><i></i><b></b><b></b></div><span>ID / CHECK</span></div><span class="art-code">PERCEPTION / 007</span><span class="art-type">DETECTION WORKFLOW</span></div><div class="project-body"><div class="project-meta"><span>VISION + WORKFLOW</span><span>07 / 09</span></div><h3>Student ID-card detection</h3><p>A YOLO-based detection concept for identifying missing ID cards and linking detection events to a student-information / admin workflow.</p><div class="tag-row"><i>YOLOV8</i><i>PYTHON</i><i>DATABASE</i></div><button class="case-open" data-case="idcard" type="button">OPEN CASE FILE <span>↗</span></button></div></article>
+        <article class="project-card reveal" data-category="robotics" data-search="dobot magician kinematic analysis inverse forward kinematics robot arm matlab"><div class="project-art art-kinematics"><div class="kinematic-axis axis-x"></div><div class="kinematic-axis axis-y"></div><div class="kinematic-arm"><i></i><b></b></div><span class="art-code">KINEMATICS / 008</span><span class="art-type">ROBOT MOTION</span></div><div class="project-body"><div class="project-meta"><span>ROBOTICS + ANALYSIS</span><span>08 / 09</span></div><h3>Dobot Magician kinematic analysis</h3><p>Robot geometry and joint-parameter study connecting forward / inverse kinematics with workspace and end-effector movement.</p><div class="tag-row"><i>DOBOT</i><i>KINEMATICS</i><i>MATLAB</i></div><button class="case-open" data-case="dobot" type="button">OPEN CASE FILE <span>↗</span></button></div></article>
+        <article class="project-card reveal" data-category="embedded" data-search="smart plant monitoring esp8266 blynk iot sensors irrigation"><div class="project-art art-plant"><div class="plant-pot"></div><div class="plant-stem"><i></i><i></i><i></i></div><div class="plant-sensor"></div><span class="art-code">IoT / 009</span><span class="art-type">CONNECTED DEVICES</span></div><div class="project-body"><div class="project-meta"><span>EMBEDDED + IoT</span><span>09 / 09</span></div><h3>Smart plant monitoring</h3><p>An ESP8266 sensor prototype linked to a Blynk IoT dashboard for remote visibility of plant-condition readings.</p><div class="tag-row"><i>ESP8266</i><i>BLYNK</i><i>IoT</i></div><button class="case-open" data-case="plant" type="button">OPEN CASE FILE <span>↗</span></button></div></article>
+      </div>
+      <div class="project-empty" id="projectEmpty" hidden>No case files match that search. Try another term.</div>
+      <div class="project-footer reveal"><span>MORE EXPERIMENTS LIVE IN THE REPOSITORIES</span><a href="https://github.com/arjunrose?tab=repositories" target="_blank" rel="noreferrer">BROWSE ALL PUBLIC BUILDS ↗</a></div>
+    </section>
+
+    <section class="deep-dive-section">
+      <div class="section deep-dive-inner">
+        <div class="section-head reveal"><div class="section-id">03 / FEATURED SYSTEM</div><div class="section-hint">A CLOSER LOOK AT THE WASTE SORTER</div></div>
+        <div class="deep-dive-layout">
+          <div class="deep-dive-copy reveal"><p class="section-kicker">PERCEPTION MEETS ACTUATION</p><h2 class="display-heading">From camera<br />to <em>correct bin.</em></h2><p class="body-lead">The automatic waste sorter is a prototype that joins a custom-trained YOLO model to a compact, servo-driven sorting mechanism.</p><p class="body-copy">The ESP32-CAM provides image capture while a laptop performs the model inference. The predicted waste class is translated into a movement decision for the collector and bin mechanism.</p><a href="#lab" class="text-link">TRY THE PIPELINE SIMULATION ↗</a></div>
+          <div class="architecture-card reveal"><div class="architecture-header"><span>SYSTEM ARCHITECTURE / WST-01</span><span>PROTOTYPE OVERVIEW</span></div><div class="architecture-flow"><div class="architecture-node"><span>01</span><b>CAPTURE</b><i>ESP32-CAM</i><small>Image frame</small></div><div class="architecture-arrow">→</div><div class="architecture-node node-active"><span>02</span><b>INFER</b><i>YOLO / HOST PC</i><small>Waste class</small></div><div class="architecture-arrow">→</div><div class="architecture-node"><span>03</span><b>DECIDE</b><i>CONTROL LOGIC</i><small>Route selection</small></div><div class="architecture-arrow">→</div><div class="architecture-node"><span>04</span><b>ACTUATE</b><i>SERVO MOTORS</i><small>Collector / bin</small></div></div><div class="architecture-bottom"><div><small>DETECTION CLASSES</small><b>PLASTIC · ORGANIC · E-WASTE · RECYCLABLE</b></div><div><small>ENGINEERING CHALLENGE</small><b>COORDINATING PERCEPTION WITH PHYSICAL MOTION</b></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="journey-section section" id="journey">
+      <div class="section-head reveal"><div class="section-id">04 / FIELD NOTES</div><div class="section-hint">INDUSTRY EXPOSURE &amp; DEVELOPMENT</div></div>
+      <div class="section-intro reveal"><div><p class="section-kicker">THE JOURNEY SO FAR</p><h2 class="display-heading">Learning in the<br /><em>real world.</em></h2></div><p class="section-note">Time around manufacturing systems, process-industry automation, PLC platforms and robotics helped connect classroom concepts with production environments.</p></div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><div class="timeline-date">JUN — JUL 2025</div><div class="timeline-marker"><i></i></div><div class="timeline-content"><div class="timeline-tags"><span>INDUSTRY INTERNSHIP</span><span>01 / FACTORY SYSTEMS</span></div><h3>Yaskawa India Pvt. Ltd.</h3><p class="timeline-sub">Bengaluru, India</p><p>Exposure to AC-drive manufacturing and production-support workflows across assembly stations. Observed RFID-assisted part verification, automatic test fixtures, inverter testing, tagging and packing processes; gained hands-on familiarity with Yaskawa robot platforms.</p><div class="timeline-tech"><span>Motoman MH24 / DX200</span><span>GP8 / YRC1000</span><span>HC10DTP / YRC1000</span><span>RFID / PRODUCTION SUPPORT</span></div></div></article>
+        <article class="timeline-item reveal"><div class="timeline-date">APR 2025</div><div class="timeline-marker"><i></i></div><div class="timeline-content"><div class="timeline-tags"><span>TECHNICAL TRAINING</span><span>02 / INDUSTRIAL CONTROL</span></div><h3>Siemens PLC Training</h3><p class="timeline-sub">Programmable logic controllers &amp; automation</p><p>Training across Siemens S7-300, S7-400, S7-1200 and S7-1500 PLC families, with exposure to programming, TIA Portal, SCADA concepts, drive control and web configuration.</p><div class="timeline-tech"><span>S7-300</span><span>S7-400</span><span>S7-1200</span><span>S7-1500</span><span>TIA PORTAL</span></div></div></article>
+        <article class="timeline-item reveal"><div class="timeline-date">JUN — JUL 2024</div><div class="timeline-marker"><i></i></div><div class="timeline-content"><div class="timeline-tags"><span>INDUSTRY INTERNSHIP</span><span>03 / PROCESS INDUSTRY</span></div><h3>Tamil Nadu Newsprint &amp; Papers Ltd.</h3><p class="timeline-sub">Tamil Nadu, India</p><p>Plant exposure to industrial automation in a continuous manufacturing environment, including PLC systems, ASRS, conveyors, sensors and paper-machine operations.</p><div class="timeline-tech"><span>PLC SYSTEMS</span><span>ASRS</span><span>CONVEYORS</span><span>SENSORS</span></div></div></article>
+        <article class="timeline-item reveal"><div class="timeline-date">2023 — 2024</div><div class="timeline-marker"><i></i></div><div class="timeline-content"><div class="timeline-tags"><span>COMMUNITY / LEARNING</span><span>04 / GENERATIVE AI</span></div><h3>Google Developer Student Clubs</h3><p class="timeline-sub">Karunya Institute of Technology and Sciences</p><p>Completed Google Computing Foundations and Generative AI learning pathways, alongside student-led technical activities.</p><div class="timeline-tech"><span>GOOGLE CLOUD</span><span>GENERATIVE AI</span><span>COMPUTING FOUNDATIONS</span></div></div></article>
+      </div>
+    </section>
+
+    <section class="capabilities-section" id="capabilities">
+      <div class="section section-inner">
+        <div class="section-head reveal"><div class="section-id">05 / SYSTEM CAPABILITIES</div><div class="section-hint">TOOLS ARE ONLY USEFUL WHEN THEY CONNECT</div></div>
+        <div class="section-intro reveal"><div><p class="section-kicker">THE TOOLCHAIN</p><h2 class="display-heading">A connected<br /><em>engineering stack.</em></h2></div><p class="section-note">A cross-disciplinary toolkit for designing, programming and analysing automated systems. The focus is on practical integration—not a list of percentages.</p></div>
+        <div class="capability-grid">
+          <article class="capability-card reveal"><div class="capability-card-top"><span>01 / CONTROL</span><b>⌁</b></div><h3>Industrial automation</h3><p>PLC programming concepts, ladder logic, sequence control, I/O mapping, HMI and factory simulation workflows.</p><div class="capability-tags"><span>Siemens TIA Portal</span><span>STEP 7</span><span>CODESYS</span><span>Factory I/O</span><span>SCADA</span><span>Festo MPS</span><span>Hydraulics</span><span>Pneumatics</span></div></article>
+          <article class="capability-card reveal"><div class="capability-card-top"><span>02 / MOTION</span><b>⌘</b></div><h3>Robotics &amp; mechanics</h3><p>Robot motion, kinematics, actuator coordination, mechanism design and CAD-based exploration.</p><div class="capability-tags"><span>Yaskawa Motoman</span><span>HC10 Cobot</span><span>Igus Delta</span><span>Dobot Magician</span><span>ROS 2</span><span>Fusion 360</span><span>SolidWorks</span><span>AutoCAD</span></div></article>
+          <article class="capability-card reveal"><div class="capability-card-top"><span>03 / PERCEPTION</span><b>◉</b></div><h3>Computer vision &amp; AI</h3><p>Model-based object recognition, image processing and edge-computing workflows for practical applications.</p><div class="capability-tags"><span>Python</span><span>YOLO</span><span>OpenCV</span><span>TensorFlow Lite</span><span>Jetson Nano</span><span>Raspberry Pi</span><span>Google Colab</span></div></article>
+          <article class="capability-card reveal"><div class="capability-card-top"><span>04 / HARDWARE</span><b>⌬</b></div><h3>Embedded &amp; connectivity</h3><p>Microcontroller prototypes, sensor integration, device communication and hardware debugging.</p><div class="capability-tags"><span>Arduino</span><span>ESP32 / ESP8266</span><span>STM32F407</span><span>Raspberry Pi</span><span>Jetson Nano</span><span>CAN</span><span>Linux</span></div></article>
+        </div>
+        <div class="language-rack reveal"><span>LANGUAGES / ENVIRONMENTS</span><div><b>PYTHON</b><b>C / C++</b><b>MATLAB</b><b>JAVASCRIPT</b><b>HTML / CSS</b><b>LINUX</b><b>GIT</b></div></div>
+      </div>
+    </section>
+
+    <section class="proof-section section" id="proof">
+      <div class="section-head reveal"><div class="section-id">06 / EDUCATION &amp; CREDENTIALS</div><div class="section-hint">THE FOUNDATION UNDER THE WORK</div></div>
+      <div class="proof-grid">
+        <div class="education-column reveal"><p class="section-kicker">ACADEMIC FOUNDATION</p><h2 class="display-heading">Built on<br /><em>curiosity.</em></h2><article class="education-card"><span>2022 — 2026</span><h3>B.Tech / Robotics &amp; Automation</h3><p>Karunya Institute of Technology and Sciences, Coimbatore</p><small>Specialisation: Artificial Intelligence</small></article><article class="education-card education-card-muted"><span>2020 — 2022</span><h3>Higher Secondary Certificate</h3><p>Good Shepherd Matriculation Higher Secondary School, Marthandam</p></article><article class="education-card education-card-muted"><span>2020</span><h3>Secondary School Leaving Certificate</h3><p>Good Shepherd Matriculation Higher Secondary School, Marthandam</p></article></div>
+        <div class="credential-column reveal"><p class="section-kicker">SELECTED LEARNING PATHWAYS</p><div class="credential-list"><div><b>01</b><p><strong>Google Cybersecurity Professional Certificate</strong><small>Google</small></p><span>↗</span></div><div><b>02</b><p><strong>Generative AI Level 3 Pathway</strong><small>Google Developer Student Clubs</small></p><span>↗</span></div><div><b>03</b><p><strong>Introduction to Industry 4.0 &amp; Industrial IoT</strong><small>NPTEL</small></p><span>↗</span></div><div><b>04</b><p><strong>Network Addressing &amp; Troubleshooting</strong><small>Cisco</small></p><span>↗</span></div><div><b>05</b><p><strong>Autodesk Fusion 360</strong><small>Autodesk</small></p><span>↗</span></div><div><b>06</b><p><strong>Getting Started with AI on Jetson Nano</strong><small>NVIDIA</small></p><span>↗</span></div><div><b>07</b><p><strong>Python, Linux &amp; Computational Thinking</strong><small>Kaggle · Great Learning · Coursera</small></p><span>↗</span></div></div><div class="outside-lab"><span>OUTSIDE THE LAB / COMMUNITY</span><p>Euphonium player with the Karunya brass band; recognised for performance during the Life Induction Program and involved in student clubs, community activities, nature and agriculture interests.</p></div></div>
+      </div>
+    </section>
+
+    <section class="github-section">
+      <div class="section github-inner">
+        <div class="github-copy reveal"><p class="section-kicker">OPEN SOURCE / PUBLIC WORK</p><h2 class="display-heading">The code has<br /><em>a life of its own.</em></h2><p>Explore public repositories, inspect experiments and follow how small ideas evolve into larger builds.</p><a class="button button-acid" href="https://github.com/arjunrose?tab=repositories" target="_blank" rel="noreferrer">OPEN GITHUB PROFILE <span>↗</span></a></div>
+        <div class="repo-window reveal"><div class="repo-window-head"><div><i></i><i></i><i></i><b>REPOSITORY RADAR</b></div><span id="repoStatus">CONNECTING…</span></div><div class="repo-list" id="repoList"><div class="repo-loading"></div><div class="repo-loading"></div><div class="repo-loading"></div></div><div class="repo-window-foot"><span>PUBLIC DATA / GITHUB REST API</span><a href="https://github.com/arjunrose" target="_blank" rel="noreferrer">@ARJUNROSE ↗</a></div></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-orbit orbit-a"></div><div class="contact-orbit orbit-b"></div>
+      <div class="section contact-inner">
+        <div class="section-head reveal"><div class="section-id">07 / NEXT MOVE</div><div class="section-hint">THE NEXT SYSTEM COULD BE OURS</div></div>
+        <div class="contact-layout reveal"><div><p class="section-kicker">OPEN CHANNEL / 24—7</p><h2 class="contact-heading">Let's make<br />something <em>move.</em></h2><p class="contact-copy">Interested in robotics, industrial automation, embedded systems or applied AI? Share the opportunity, the challenge or the idea.</p><div class="contact-details"><a href="mailto:arjunrose2005@gmail.com">ARJUNROSE2005@GMAIL.COM <span>↗</span></a><a href="https://www.linkedin.com/in/arjun-rose-j-s" target="_blank" rel="noreferrer">LINKEDIN <span>↗</span></a><a href="https://github.com/arjunrose" target="_blank" rel="noreferrer">GITHUB <span>↗</span></a></div></div>
+          <form class="contact-card" id="contactForm"><div class="contact-card-title"><span>TRANSMISSION FORM</span><b>AR / 07</b></div><label for="contactName">YOUR NAME</label><input id="contactName" name="name" placeholder="Jane Smith" maxlength="100" required /><label for="contactEmail">EMAIL ADDRESS</label><input id="contactEmail" name="email" type="email" placeholder="jane@company.com" maxlength="180" required /><label for="contactTopic">SUBJECT</label><select id="contactTopic" name="topic"><option>Job opportunity</option><option>Robotics / automation project</option><option>Collaboration</option><option>Just saying hello</option></select><label for="contactMessage">MESSAGE</label><textarea id="contactMessage" name="message" rows="4" placeholder="Tell me a little about what you're building…" maxlength="3000" required></textarea><button type="submit" class="button button-acid">PREPARE EMAIL <span>↗</span></button><p class="contact-status" id="contactStatus" role="status">Your email application will open with the message prepared.</p></form></div>
+        <div class="contact-footer"><span>ARJUN ROSE J S</span><span>BUILT WITH INTENT / DESIGNED TO MOVE</span><span>© <b id="currentYear">2026</b></span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="identity" href="#home"><span class="identity-symbol">AR<span>·</span></span><span class="identity-name"><b>ARJUN ROSE</b><small>ENGINEER / BUILDER</small></span></a><span>ENGINEERED IN INDIA <i>·</i> CONNECTED TO THE WORLD</span><a href="#home">BACK TO TOP ↑</a></footer>
+
+  <div class="case-modal" id="caseModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="caseTitle"><div class="case-backdrop" data-close-case></div><div class="case-dialog"><button class="case-close" type="button" data-close-case aria-label="Close case file">×</button><div class="case-dialog-head"><span id="caseKicker">CASE FILE / 01</span><span>ENGINEERING ARCHIVE</span></div><h2 id="caseTitle">Project title</h2><p class="case-summary" id="caseSummary"></p><div class="case-detail-grid" id="caseDetails"></div><div class="case-tags" id="caseTags"></div><a class="case-repo-link" id="caseRepo" href="https://github.com/arjunrose?tab=repositories" target="_blank" rel="noreferrer">VIEW PUBLIC REPOSITORIES ↗</a></div></div>
+
+  <div class="command-overlay" id="commandOverlay" aria-hidden="true"><div class="command-backdrop" data-close-command></div><div class="command-dialog"><div class="command-search"><span>⌘</span><input id="commandInput" type="text" placeholder="Find a section or action…" autocomplete="off" /><kbd>ESC</kbd></div><div class="command-label">NAVIGATE</div><div class="command-list" id="commandList"><button data-target="experience"><span>01</span> Interactive Engineering Atlas <kbd>↵</kbd></button><button data-target="lab"><span>02</span> Interactive Lab</button><button data-target="projects"><span>03</span> Selected Builds</button><button data-target="journey"><span>04</span> Industry Journey</button><button data-target="capabilities"><span>05</span> Capabilities</button><button data-target="contact"><span>06</span> Contact</button><a href="https://arjunrose.github.io/Arjun_Rose_J_S/assets/Arjun_Rose_J_S_Resume.pdf" target="_blank" rel="noreferrer"><span>PDF</span> Open Résumé ↗</a></div><div class="command-tip">PRESS <kbd>CTRL</kbd> + <kbd>K</kbd> TO OPEN ANYWHERE</div></div></div>
+
+  <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation" aria-hidden="true"><a href="#experience">EXPLORE <span>01</span></a><a href="#lab">THE LAB <span>02</span></a><a href="#projects">BUILDS <span>03</span></a><a href="#journey">JOURNEY <span>03</span></a><a href="#capabilities">STACK <span>04</span></a><a href="#contact">CONTACT <span>05</span></a><div class="mobile-menu-foot">ARJUN ROSE / ENGINEER &amp; BUILDER</div></nav>
+
+  <button class="command-trigger" id="commandTrigger" type="button" aria-label="Open command menu"><span>⌘</span><kbd>K</kbd></button>
+  <button class="top-return" id="topReturn" type="button" aria-label="Back to top">↑</button>
+
+  <button class="claude-launcher" id="claudeLauncher" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="claudePanel">
+    <span class="claude-orb">✳</span><span><strong>ASK THE LAB</strong><small>CLAUDE / ARJUN'S AI GUIDE</small></span>
+  </button>
+  <section class="claude-panel" id="claudePanel" role="dialog" aria-modal="false" aria-label="Claude portfolio assistant" aria-hidden="true">
+    <div class="claude-head"><span class="claude-orb">✳</span><div class="claude-head-copy"><strong>Ask the Lab</strong><small>CLAUDE · PORTFOLIO KNOWLEDGE ASSISTANT</small></div><span class="claude-status"><i></i> READY</span><button class="claude-close" id="claudeClose" type="button" aria-label="Close assistant">×</button></div>
+    <p class="claude-intro">Ask about Arjun’s projects, industrial exposure, technical stack or how his work could fit a role. This assistant is grounded in the portfolio, not a substitute for a direct conversation.</p>
+    <div class="claude-prompts" id="claudePrompts"><button type="button" data-prompt="Give me a 30-second recruiter summary of Arjun.">Recruiter summary</button><button type="button" data-prompt="Explain the automatic waste sorter project and its architecture.">Waste sorter</button><button type="button" data-prompt="What industrial robotics and PLC experience does Arjun have?">Industry experience</button></div>
+    <div class="claude-messages" id="claudeMessages" aria-live="polite"><div class="claude-message assistant">Hello. I’m the Claude-powered guide to Arjun’s engineering work. Ask me anything about the projects, systems, tools or experience shown here.</div></div>
+    <div class="claude-compose"><form id="claudeForm"><textarea id="claudeInput" rows="1" maxlength="1200" placeholder="Ask about a project, skill or experience…" aria-label="Message the portfolio assistant"></textarea><button class="claude-send" id="claudeSend" type="submit" aria-label="Send message">↗</button></form><div class="claude-disclaimer">CLAUDE API · REPLIES MAY BE AI-GENERATED · DO NOT SHARE PRIVATE OR CONFIDENTIAL INFORMATION</div></div>
+  </section>
+</body>
+</html>

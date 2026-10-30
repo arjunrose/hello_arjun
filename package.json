@@ -1,0 +1,7 @@
+{
+  "name": "arjun-rose-portfolio",
+  "version": "4.0.0",
+  "private": true,
+  "description": "Interactive robotics, industrial automation and applied AI portfolio",
+  "engines": { "node": ">=20" }
+}
